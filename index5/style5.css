@@ -288,6 +288,12 @@ a:hover {
     opacity: 1;
 }
 
+.card:hover>.card-wrapper p {
+    opacity: 1;
+    visibility: visible;
+    font-size: 14px;
+}
+
 
 /* FOOTER */
 
@@ -299,9 +305,6 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-
-
-/* RESPONSIVO */
 
 @media (max-width: 800px) {
     .social-media {
